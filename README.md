@@ -7,8 +7,9 @@ A simple example of connecting to SQL Server in Python, creating a table and ret
 
 ## GETTING STARTED
 - Install the packages - 'pandas' and 'pyodbc'
+- Open the included .ipynb file
 - Replace the details in the connection string with your SQL Server credentials
-- Follow the steps included to:
+- Follow the steps in the file included in order to:
   - Create a table
   - Insert data
   - Query the data
