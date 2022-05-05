@@ -15,3 +15,10 @@ A simple example of connecting to SQL Server in Python, creating a table and ret
   - Query the data
   - Turn the data into a list of lists for each row
   - Convert the list of lists into a pandas data frame
+
+## NOTES
+- If you are working with SQL Server Express or Developer edition and connect with Windows authentication, this line needs to be added to the connection string:
+```
+"Trusted_Connection=yes"
+```
+- This will ignore the UID and PWD and allow you to connect via Windows authentication.
